@@ -23,6 +23,18 @@
   </head>
 
   <body>
-    <%= yield %>
+    <main>
+      <header> </header>
+      <nav></nav>
+      <section class="sec1">
+        <aside>
+          <a href="<%= new_user_path %>">New User</a>
+        </aside>
+        <section class="sec2">
+          <%= yield %>
+        </section>
+      </section>
+      <footer> </footer>
+    </main>
   </body>
 </html>
