@@ -12,16 +12,20 @@ main{
 .sec2{
     width: 80%;
     background-color: #999999;
-    box-shadow: 0 3px 15px black;
+    box-shadow: 0 0 10px black;
     border-radius: 0 15px 15px 0;
     padding: 20px;
 }
 aside{
     width: 20%;
-    background-color: #007bff;
-    box-shadow: 0 3px 15px black;
+    background-color: #1b722f;
+    box-shadow: 0 0 10px black;
     border-radius: 15px 0 0 15px;
     padding: 20px;
+}
+
+aside a{
+    font-size: 30px;
 }
 
 .button{
@@ -67,4 +71,56 @@ a:hover{
 
 #boton-borrar:hover{
     padding: 10px;
+}
+
+header{
+    border-radius: 10px 10px 0 0;
+    background-color: #1b722f;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow: 0 3px 15px black;
+}
+header img{
+    width: 200px;
+    border-radius: 50%;
+    background-color: white;
+    padding: 10px;
+    margin: 25px;
+    box-shadow: 0 0 10px;
+}
+header h1 {
+    font-size: 100px;
+    color: white;
+    text-shadow: 0 0 10px black;
+}
+
+nav{
+    background-color: #0f3d1a;
+    border-radius: 0 0 10px 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-shadow: 0 0 10px black;
+}
+
+nav a{
+    font-size: 25px;
+
+}
+
+footer{
+    background-color: #0f3d1a;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+    padding: 20px;
+    flex-direction: column;
 }

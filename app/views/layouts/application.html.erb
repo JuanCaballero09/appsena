@@ -24,8 +24,15 @@
 
   <body>
     <main>
-      <header> </header>
-      <nav></nav>
+      <header>
+        <img src="<%= asset_path 'logoSena.png' %>" alt="SENA">
+        <h1>SENA</h1>
+      </header>
+      <nav>
+        <a href="#">ADMIN</a>
+        <a href="#">INSTRUCTORES</a>
+        <a href="#">APRENDICES</a>
+      </nav>
       <section class="sec1">
         <aside>
           <a href="<%= new_user_path %>">New User</a>
@@ -34,7 +41,11 @@
           <%= yield %>
         </section>
       </section>
-      <footer> </footer>
+      <footer>
+        <p>Contáctenos</p>
+        <p>Línea gratuita 018000-00001</p>
+        <p>Correo: sena.soporte@soy.sena.com</p>
+      </footer>
     </main>
   </body>
 </html>
