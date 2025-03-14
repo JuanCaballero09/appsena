@@ -11,7 +11,7 @@ main{
 }
 .sec2{
     width: 80%;
-    background-color: #6c757d;
+    background-color: #999999;
     box-shadow: 0 3px 15px black;
     border-radius: 0 15px 15px 0;
     padding: 10px;
@@ -58,4 +58,13 @@ a:hover{
 .input-form:focus{
     outline: none;
     border: none;
+}
+
+#boton-borrar{
+    margin: 10px 0;
+    transition: .3s ease;
+}
+
+#boton-borrar:hover{
+    padding: 10px;
 }
